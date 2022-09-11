@@ -42,6 +42,19 @@ ul {
     border: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
 /*========================================|HEADER|========================================*/
 
 .page-header {
@@ -156,6 +169,8 @@ ul {
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/top-section.jpg');
     background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .top-div {
